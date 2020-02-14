@@ -1,14 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
+    <!-- meta viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Kenny Huang</title>
 
     <!-- bootstrap cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
+
 <body>
-    
+    <!-- added navbar from Twitter Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Kenny Huang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- wrapper -->
+    <div class="wrapper">
+        <div id="main-container" class="container">
+
+            <!-- first row -->
+            <div class="row">
+                <!-- grid system -->
+                <div class="col-xs-7 col-sm-7 col-md-6 col-lg-6">
+                    <section class="main-section">
+
+                        <!-- bootstrap card -->
+                        <div class="card" style="width: 17rem;">
+                            <img class="card-img-top" src="image.jpg" alt="Kenny Huang">
+                            <div class="card-body">
+                                <h5 class="card-title">Kenny Huang</h5>
+                                <a href="mailto:khny258@gmail.com">khny258@gmail.com</a>
+                                <br>
+                                <a href="tel:917-345-6723">917-345-6723</a>
+                                <br>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+                <!-- grid system -->
+                <div class="col-xs-5 col-sm-5 col-md-6 col-lg-6">
+                    <section class="sidebar">
+                        <div id="connect">
+
+                            <a href="https://github.com/khny258" target="_blank"><img src="github_PNG20.png" id="social" alt="GitHub" class="img-thumbnail" /></a>
+                            <a href="https://www.linkedin.com/in/huangkenny/" target="_blank"><img src="linkedin-logo-512x512.png" id="social" alt="LinkedIn" class="img-thumbnail" /></a>
+                            <a href="https://twitter.com/khnydev" target="_blank"><img src="twitter-71.jpg" id="social" alt="Twitter" class="img-thumbnail" /></a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="push"></div>
+            </div>
+        </div>
 </body>
+
 </html>
