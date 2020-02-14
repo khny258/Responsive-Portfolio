@@ -1,48 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
+    <!-- meta viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Kenny Huang</title>
 
     <!-- bootstrap cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
+
 <body>
-  <!-- added navbar from Twitter Bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Kenny Huang</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <!-- added navbar from Twitter Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Kenny Huang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
     </nav>
-    <!-- container -->
-  <div class="container">
 
-    <!-- first row -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-        <section class="main-section">
-          <h1>About Me</h1>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- main container -->
+        <div id="main-container" class="container">
 
-          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH0isnJq1-f-g/profile-displayphoto-shrink_200_200/0?e=1586995200&v=beta&t=5sqwwh0oEm8bTNbkypuo7Fe4-eGvToMxOnk7FPukBtw" id="auth-image" alt="Kenny Huang" class="img-thumbnail">
+            <!-- first row -->
+            <div class="row">
+                <!-- grid system -->
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
 
-          <p>I graduated from Stony Brook University with a Bachelor’s in Business Management (concentration in Finance) and Economics. I've been working as a trader in wealth management for ultra-high-net-worth individuals for over 10 years.</p>
+                    <!-- main section -->
+                    <section class="main-section">
 
-          <p>I am interested in software engineering because with the help of technology, I can develop innovative applications that improve and motivate lives, and work together with other engineers to solve real life problems.</p>
-        </section>
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH0isnJq1-f-g/profile-displayphoto-shrink_200_200/0?e=1586995200&v=beta&t=5sqwwh0oEm8bTNbkypuo7Fe4-eGvToMxOnk7FPukBtw" id="auth-image" alt="Kenny Huang" class="img-thumbnail">
+
+                        <p>I graduated from Stony Brook University with a Bachelor’s in Business Management (concentration in Finance) and Economics. I've been working as a trader in wealth management for ultra-high-net-worth individuals for over 10 years.</p>
+
+                        <p>I am interested in software engineering because with the help of technology, I can develop innovative applications that improve and motivate lives, and work together with other engineers to solve real life problems.</p>
+                    </section>
+                </div>
+
+                <!-- grid system -->
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <!-- sidebar -->
+                    <section class="sidebar">
+                        <div id="connect">
+
+                            <a href="https://github.com/khny258" target="_blank"><img src="github_PNG20.png" id="social" alt="GitHub" class="img-thumbnail" /></a>
+                            <a href="https://www.linkedin.com/in/huangkenny/" target="_blank"><img src="linkedin-logo-512x512.png" id="social" alt="LinkedIn" class="img-thumbnail" /></a>
+                            <a href="https://twitter.com/khnydev" target="_blank"><img src="twitter-71.jpg" id="social" alt="Twitter" class="img-thumbnail" /></a>
+                            <br>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="push"></div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>
+            window.jQuery || document.write('<script src="/docs/4.0/assets/js/vendor/jquery-slim.min.js"><\/script>')
+        </script>
+
+        <script src="/docs/4.0/assets/js/vendor/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="/docs/4.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+        <script src="/docs/4.0/assets/js/docs.min.js"></script>
 </body>
+
 </html>
