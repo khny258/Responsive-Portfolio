@@ -1,5 +1,5 @@
 # Responsive-Portfolio
-CSS and Bootstrap Homework: Responsive Portfolio
+CSS and Bootstrap Homework: Responsive Portfolio (What I Did section is on the bottom)
 
 ## Directions
 
