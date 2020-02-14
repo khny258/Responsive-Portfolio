@@ -30,3 +30,7 @@ First, you will use the Bootstrap CSS Framework to recreate your portfolio. How 
 * Functional, deployed application
 
 * GitHub repository with README describing the project
+
+### What I Did
+
+
