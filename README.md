@@ -1,5 +1,5 @@
 # Responsive-Portfolio
-CSS and Bootstrap Homework: Responsive Portfolio (What I Did section is on the bottom)
+CSS and Bootstrap Homework: Responsive Portfolio <b>(What I Did section is on the bottom)</b>
 
 ## Directions
 
@@ -37,8 +37,8 @@ First, you will use the Bootstrap CSS Framework to recreate your portfolio. How 
 
 * Every page has a navbar, a responsive layout, and responsive images. 
 
-* Index.html uses Twitter's Bootstrap & HTML with a responsive layout containing responsive images. On a 'xs' screen, the content takes up the entire screen. There are some margins on the left and right of the screen on 'sm' and larger screens. The responsive images in the sidebar will shift to the bottom as the screen gets smaller. 
+* Index.html uses Bootstrap CSS & HTML with a responsive layout containing responsive images. On a 'xs' screen, the content takes up the entire screen. There are some margins on the left and right of the screen on 'sm' and larger screens. The responsive images in the sidebar will shift to the bottom as the screen gets smaller. 
 
-* Portfolio.html uses Twitter's Bootstrap & HTML with a responsive layout containing responsive images. On a 'xs' screen, the content takes up the entire screen. There are some margins on the left and right of the screen on 'sm' and larger screens. The responsive images in the main container and on the sidebar will shift lower as the screen gets smaller.   
+* Portfolio.html uses Bootstrap CSS & HTML with a responsive layout containing responsive images. On a 'xs' screen, the content takes up the entire screen. There are some margins on the left and right of the screen on 'sm' and larger screens. The responsive images in the main container and on the sidebar will shift lower as the screen gets smaller.   
 
-* Contact.html uses Twitter's Bootstrap & HTML with a responsive layout containing a Bootstrap card and responsive images. On a 'xs' screen, the content takes up the entire screen. There are some margins on the left and right of the screen on 'sm' and larger screens. The responsive images in the sidebar will shift to the bottom as the screen gets smaller.   
+* Contact.html uses Bootstrap CSS & HTML with a responsive layout containing a Bootstrap card, contact form, and responsive images. On a 'xs' screen, the content takes up the entire screen. There are some margins on the left and right of the screen on 'sm' and larger screens. The responsive images in the sidebar will shift to the bottom as the screen gets smaller.   
