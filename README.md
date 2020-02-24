@@ -9,7 +9,7 @@ https://khny258.github.io/Responsive-Portfolio/
 
 <strong>Mobile</strong>
 <br>
-<img src="mobile.png">
+<img src="mobile.png" width="50%" height="50%">
 
 ## Directions
 
