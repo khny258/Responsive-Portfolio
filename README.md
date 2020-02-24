@@ -1,6 +1,16 @@
 # Responsive-Portfolio
 CSS and Bootstrap Homework: Responsive Portfolio <b>(What I Did section is on the bottom)</b>
 
+https://khny258.github.io/Responsive-Portfolio/
+
+<strong>Desktop</strong>
+<br>
+<img src="desktop.png">
+
+<strong>Mobile</strong>
+<br>
+<img src="mobile.png">
+
 ## Directions
 
 First, you will use the Bootstrap CSS Framework to recreate your portfolio. How do you deliver this? Here are some guidelines:
