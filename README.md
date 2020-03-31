@@ -5,11 +5,11 @@ https://khny258.github.io/Responsive-Portfolio/
 
 <strong>Desktop</strong>
 <br>
-<img src="desktop.png">
+<img src="assets/desktop.png">
 
 <strong>Mobile</strong>
 <br>
-<img src="mobile.png" width="50%" height="50%">
+<img src="assets/mobile.png" width="50%" height="50%">
 
 ## Directions
 
